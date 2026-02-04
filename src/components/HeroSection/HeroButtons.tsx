@@ -1,4 +1,5 @@
 import { GitHubIcon } from "@/assets/Icon/GitHubIcon";
+import { GmailIcon } from "@/assets/Icon/GmailIcon";
 import { LinkedInIcon } from "@/assets/Icon/LinkedInIcon";
 import useDownloadCV from "@/hooks/useDownloadCV";
 import { cn } from "@/lib/utils";
@@ -50,6 +51,15 @@ const HeroButtons = () => {
             className="text-primary hover:text-primary-foreground transition-colors"
           >
             <LinkedInIcon className="w-10 h-10" />
+          </a>
+          <a
+            href="mailto:ovtt17@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Gmail"
+            className="text-primary hover:text-primary-foreground transition-colors"
+          >
+            <GmailIcon className="w-10 h-10" />
           </a>
         </div>
       </div>

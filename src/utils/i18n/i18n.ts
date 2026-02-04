@@ -16,11 +16,27 @@ import esTechnologies from "@/utils/locales/es/technologies/technologies.json";
 import enContact from "@/utils/locales/en/contact/contact.json";
 import esContact from "@/utils/locales/es/contact/contact.json";
 
+const SUPPORTED_LANGUAGES = ["en", "es"] as const;
+type SupportedLanguage = (typeof SUPPORTED_LANGUAGES)[number];
 
-const pathLangMatch = window.location.pathname.match(/^\/(en|es)(\/?$)/);
-const detectedLanguage = pathLangMatch ? pathLangMatch[1] : "en";
+const isValidLanguage = (
+  lng: string | null
+): lng is SupportedLanguage =>
+  SUPPORTED_LANGUAGES.includes(lng as SupportedLanguage);
 
-const savedLanguage = localStorage.getItem("language") || detectedLanguage;
+const pathLangMatch = window.location.pathname.match(/^\/([^/]+)/);
+const langFromUrl = pathLangMatch?.[1] ?? null;
+
+const detectedLanguage = isValidLanguage(langFromUrl)
+  ? langFromUrl
+  : null;
+
+const langFromStorage = localStorage.getItem("language");
+
+const initialLanguage: SupportedLanguage =
+  (isValidLanguage(langFromStorage) && langFromStorage) ||
+  detectedLanguage ||
+  "en";
 
 i18n
   .use(initReactI18next)
@@ -45,15 +61,19 @@ i18n
         contact: esContact,
       },
     },
-    lng: savedLanguage, // Usa el idioma de la URL, localStorage o "en" por defecto
+    lng: initialLanguage,
+    fallbackLng: "en",
     interpolation: {
-      escapeValue: false // react already safes from xss
-    }
+      escapeValue: false,
+    },
   });
 
-// Guarda el idioma en localStorage cada vez que se cambie
 i18n.on("languageChanged", (lng) => {
-  localStorage.setItem("language", lng);
+  if (isValidLanguage(lng)) {
+    localStorage.setItem("language", lng);
+  } else {
+    localStorage.setItem("language", "en");
+  }
 });
 
 export default i18n;

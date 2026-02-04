@@ -4,6 +4,8 @@ import { Button } from "@/components/Button";
 import { SparklesIcon } from "lucide-react";
 
 const NotFound = () => {
+  const savedLanguage = localStorage.getItem("language") || "en"
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-background px-4 text-center overflow-hidden relative">
       {/* OVNI flotante decorativo */}
@@ -69,8 +71,8 @@ const NotFound = () => {
           todavía puedes volver al planeta principal 🪐
         </p>
 
-        <Link to="/" className="inline-block pt-2 cursor-pointer">
-          <Button size="md" className="gap-2 px-5 py-2">
+        <Link to={`/${savedLanguage}`} className="inline-block pt-2">
+          <Button size="md" className="gap-2 px-5 py-2 cursor-pointer">
             <SparklesIcon className="w-4 h-4" />
             Volver al inicio
           </Button>
