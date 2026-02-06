@@ -5,24 +5,24 @@
   },
   "intro": {
     "title": {
-      "part1": "Desarrollador Web",
+      "part1": "Desarrollador Web ",
       "part2": "Back-End"
     },
     "description1": {
-      "part1": "Actualmente estoy cursando la carrera en",
-      "highlight1": "Ingeniería de Sistemas",
-      "part2": "que complementa mi trabajo como desarrollador web con un fuerte enfoque en el desarrollo de back-end, utilizando principalmente",
+      "part1": "Soy un ingeniero en sistemas con un enfoque sólido en el",
+      "highlight1": " desarrollo back-end",
+      "part2": ", especializado en diseñar y construir sistemas estables, seguros y escalables utilizando ",
       "highlight2": "Java",
-      "part3": "y el ecosistema de",
+      "part3": " y el ecosistema de ",
       "highlight3": "Spring Boot",
-      "part4": "Disfruto construir APIs escalables, integrar sistemas de autenticación y trabajar en servicios de alto rendimiento."
+      "part4": ". Actualmente trabajo con una mentalidad más orientada a ingeniería, cuidando la arquitectura, la organización del código, la seguridad y la mantenibilidad de las aplicaciones."
     },
     "description2": {
-      "part1": "Aunque mi principal fortaleza radica en la ingeniería de back-end, también tengo experiencia sólida construyendo interfaces de usuario modernas usando",
+      "part1": "Mi trabajo se centra en diseñar sistemas back-end sólidos, priorizando una buena arquitectura, código mantenible y decisiones técnicas bien fundamentadas. Me preocupo por entender el problema antes de escribir código y por construir soluciones claras, ordenadas y fáciles de evolucionar. Cuento además con experiencia en el desarrollo de interfaces modernas usando ",
       "highlight1": "React",
-      "part2": "y",
+      "part2": " y ",
       "highlight2": "TypeScript",
-      "part3": "lo que me hace capaz de ofrecer soluciones full-stack cuando es necesario."
+      "part3": ", lo que me permite tener una visión completa del producto y del flujo de la aplicación."
     },
     "cta": {
       "downloadCV": "Descargar CV"
@@ -30,16 +30,16 @@
   },
   "cards": [
     {
-      "title": "Desarrollo Full-Stack",
-      "description": "Construyo aplicaciones web utilizando Spring Boot y React con TypeScript, cubriendo tanto las necesidades de back-end como de front-end."
+      "title": "Ingeniería Back-End",
+      "description": "Diseño y desarrollo APIs bien estructuradas, aplicando arquitectura limpia, separación de responsabilidades y buenas prácticas de ingeniería."
     },
     {
-      "title": "Especialista en Back-End",
-      "description": "Enfocado en APIs escalables, arquitectura limpia y autenticación segura utilizando Java y Spring Boot."
+      "title": "Sistemas Reales",
+      "description": "He trabajado en sistemas utilizados en entornos reales, desarrollando lógica de negocio y flujos completos."
     },
     {
-      "title": "Crecimiento Continuo",
-      "description": "Apasionado por escribir código limpio, aprender mejores prácticas y mantenerme actualizado con el ecosistema de Java."
+      "title": "Crecimiento Técnico",
+      "description": "He evolucionado de construir soluciones funcionales a diseñar sistemas más profesionales, enfocados en calidad, seguridad y escalabilidad."
     }
   ]
 }
