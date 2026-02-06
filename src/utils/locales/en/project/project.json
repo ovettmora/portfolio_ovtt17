@@ -6,14 +6,52 @@
   },
   "projects": [
     {
-      "id": 1,
-      "title": "Heycha Inventory System",
-      "slug": "heycha-inventory",
+      "id": 5,
+      "title": "Patient Management System",
+      "slug": "patient-app",
       "role": "Full Stack Developer",
-      "description": "Full-stack inventory and sales management system built for a real business. Features secure authentication with OAuth2.0 and JWT, AWS S3 file storage, and a scalable architecture using Spring Boot and React.",
-      "descriptionExtend": "This project is designed to manage inventory and sales for a real business, providing a comprehensive solution for tracking products, sales, and inventory levels. It includes secure user authentication using OAuth2.0 and JWT, allowing for safe access to the system. The application also integrates with AWS S3 for file storage, enabling users to upload and manage product images efficiently. Built with a modular architecture using Spring Boot for the backend and React for the frontend, it ensures scalability and maintainability.",
+      "description": "Enterprise-grade patient management platform built with a cloud-native microservices architecture.",
+      "descriptionExtend": "Enterprise-grade patient management platform designed for healthcare environments. The system is built using a cloud-native microservices architecture, with independent services for Patient, Doctor, Appointment, Medical Record, Notification, and Authentication. The backend is developed with Spring Boot and Spring Cloud, enabling scalability and fault tolerance. An event-driven architecture powered by Apache Kafka ensures reliable asynchronous communication between services. Security is handled through OAuth 2.0 for authentication and authorization, while distributed tracing is implemented with Zipkin for observability. The platform uses MySQL and MongoDB for data persistence, allowing flexibility between relational and NoSQL data models.",
+      "image": "/images/projects/patient-app/patient-app.webp",
+      "technologies": [
+        "Micro Services",
+        "Spring Boot",
+        "Spring Cloud",
+        "Java",
+        "Docker Compose",
+        "Kafka",
+        "MongoDB",
+        "PostgreSQL",
+        "Zipkin",
+        "Zookeeper",
+        "API Gateway",
+        "Resource Server",
+        "OAuth2.0",
+        "Email Sending"
+      ],
+      "codeUrl": "https://github.com/Ovtt17/patient-app-api"
+    },
+    {
+      "id": 1,
+      "title": "Heycha POS System",
+      "slug": "heycha-pos-system",
+      "role": "Full Stack Developer",
+      "description": "Full-stack Point of Sale (POS) system built for a real business, designed to handle sales transactions, inventory control, and product management with a secure and scalable architecture.",
+      "descriptionExtend": "This project is a full-featured Point of Sale (POS) system developed for a real business environment. It enables efficient management of sales transactions, real-time inventory tracking, and product administration through an intuitive interface. The system includes secure authentication and authorization using OAuth2.0 and JWT, ensuring controlled access to sensitive operations. It integrates AWS S3 for managing product images and digital assets, and supports automated email notifications for business workflows. Built with a modular and scalable architecture using Spring Boot on the backend and React on the frontend, the platform is designed to support business growth while maintaining performance, reliability, and maintainability.",
       "image": "/images/projects/heycha-inventory/heycha-inventory.webp",
-      "technologies": ["Spring Boot", "Java", "React", "TypeScript", "Tailwind", "JWT", "OAuth2.0", "MySQL", "AWS S3", "Email Sending"]
+      "technologies": [
+        "Spring Boot",
+        "Java",
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "JWT",
+        "OAuth2.0",
+        "MySQL",
+        "AWS S3",
+        "Email Sending"
+      ],
+      "codeUrl": "https://github.com/Ovtt17/ecommerce-app-api"
     },
     {
       "id": 2,
@@ -23,7 +61,22 @@
       "description": "Microservices backend for an e-commerce platform with Spring Boot, Spring Cloud, Keycloak authentication, Kafka, and observability tools like Zipkin. Supports relational and NoSQL databases, containerized with Docker Compose.",
       "descriptionExtend": "This project implements a microservices architecture for an e-commerce platform, focusing on scalability and maintainability. It utilizes Spring Boot for building individual services, Spring Cloud for service discovery and configuration management, and Keycloak for secure user authentication. The system incorporates Kafka for asynchronous messaging between services, enhancing performance and reliability. Observability is achieved through tools like Zipkin for distributed tracing. The architecture supports both relational databases (PostgreSQL) and NoSQL databases (MongoDB), providing flexibility in data management. The entire system is containerized using Docker Compose, facilitating easy deployment and scaling.",
       "image": "/images/projects/ecommerce-architecture/ecommerce-architecture.webp",
-      "technologies": ["Micro Services", "Spring Boot", "Spring Cloud", "Java", "Docker Compose", "Keycloak", "Kafka", "MongoDB", "PostgreSQL", "Zipkin", "Zookeeper", "API Gateway", "Resource Server", "Email Sending"],
+      "technologies": [
+        "Micro Services",
+        "Spring Boot",
+        "Spring Cloud",
+        "Java",
+        "Docker Compose",
+        "Keycloak",
+        "Kafka",
+        "MongoDB",
+        "PostgreSQL",
+        "Zipkin",
+        "Zookeeper",
+        "API Gateway",
+        "Resource Server",
+        "Email Sending"
+      ],
       "codeUrl": "https://github.com/Ovtt17/ecommerce-app-api"
     },
     {
@@ -35,7 +88,17 @@
       "descriptionExtend": "This project replicates the core functionalities of WhatsApp Web, allowing users to send and receive messages in real-time. It features user authentication managed by Keycloak, ensuring secure access to the application. The backend is built with Spring Boot, utilizing WebSockets for real-time communication, which allows for instant message delivery. The architecture is designed to be scalable, accommodating a growing number of users and messages without performance degradation.",
       "image": "/images/projects/whatsapp-clone/whatsapp-clone.webp",
       "videoDemo": "/videos/projects/whatsapp-clone/whatsapp-clone.mp4",
-      "technologies": ["Spring Boot", "Java", "React", "TypeScript", "Tailwind", "Keycloak", "WebSocket", "Vite", "Docker Compose"],
+      "technologies": [
+        "Spring Boot",
+        "Java",
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "Keycloak",
+        "WebSocket",
+        "Vite",
+        "Docker Compose"
+      ],
       "codeUrl": "https://github.com/Ovtt17/whatsapp-clone-api"
     },
     {
@@ -47,7 +110,17 @@
       "descriptionExtend": "This project provides a comprehensive solution for creating and managing surveys. It allows users to authenticate using OAuth2.0 with Google and Facebook, ensuring secure access. The application supports email notifications for survey updates and uses the Imgur API for image uploads, enhancing user experience. The architecture is modular, featuring services for reviews, reports, and user profiles, making it adaptable for various use cases. The backend is built with Spring Boot, providing a robust REST API, while the frontend is developed with React, ensuring a responsive and dynamic user interface.",
       "image": "/images/projects/survey-app/survey-app.webp",
       "videoDemo": "/videos/projects/survey-app/survey-app.mp4",
-      "technologies": ["Spring Boot", "Java", "React", "TypeScript", "Tailwind", "OAuth2.0", "JWT", "MySQL", "Imgur API"],
+      "technologies": [
+        "Spring Boot",
+        "Java",
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "OAuth2.0",
+        "JWT",
+        "MySQL",
+        "Imgur API"
+      ],
       "codeUrl": "https://github.com/Ovtt17/survey-app-api"
     }
   ],
