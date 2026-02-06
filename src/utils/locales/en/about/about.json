@@ -5,24 +5,24 @@
   },
   "intro": {
     "title": {
-      "part1": "Back-End",
+      "part1": "Back-End ",
       "part2": "Web Developer"
     },
     "description1": {
-      "part1": "I'm currently pursuing a degree in",
-      "highlight1": "Systems Engineering",
-      "part2": "which complements my work as a web developer with a strong focus on back-end development, primarily using",
+      "part1": "I am a software engineer with a strong focus on",
+      "highlight1": " back-end development",
+      "part2": ", specialized in designing and building stable, secure, and scalable systems using ",
       "highlight2": "Java",
-      "part3": "and the",
+      "part3": " and the ",
       "highlight3": "Spring Boot",
-      "part4": "ecosystem. I enjoy building scalable APIs, integrating authentication systems, and working on high-performance services."
+      "part4": " ecosystem. I currently work with a more engineering-oriented mindset, paying close attention to architecture, code organization, security, and long-term maintainability."
     },
     "description2": {
-      "part1": "While my main strength lies in back-end engineering, I also have solid experience building modern user interfaces using",
+      "part1": "My work focuses on designing solid back-end systems, prioritizing clean architecture, maintainable code, and well-founded technical decisions. I take the time to understand the problem before writing code and aim to build clear, well-structured solutions that are easy to evolve. I also have experience developing modern user interfaces using ",
       "highlight1": "React",
-      "part2": "and",
+      "part2": " and ",
       "highlight2": "TypeScript",
-      "part3": "making me capable of delivering full-stack solutions when needed."
+      "part3": ", which allows me to have a complete view of the product and the overall application flow."
     },
     "cta": {
       "downloadCV": "Download CV"
@@ -30,16 +30,16 @@
   },
   "cards": [
     {
-      "title": "Full-Stack Development",
-      "description": "I build web applications using Spring Boot and React with TypeScript, covering both back-end and front-end needs."
+      "title": "Back-End Engineering",
+      "description": "I design and develop well-structured APIs, applying clean architecture, separation of concerns, and solid engineering practices."
     },
     {
-      "title": "Back-End Specialist",
-      "description": "Focused on scalable APIs, clean architecture, and secure authentication using Java and Spring Boot."
+      "title": "Real-World Systems",
+      "description": "I have worked on systems used in real environments, developing business logic and complete application flows."
     },
     {
-      "title": "Continuous Growth",
-      "description": "Passionate about writing clean code, learning best practices, and staying up-to-date with the Java ecosystem."
+      "title": "Technical Growth",
+      "description": "I have evolved from building functional solutions to designing more professional systems focused on quality, scalability, and long-term sustainability."
     }
   ]
 }
