@@ -29,7 +29,7 @@
         "OAuth2.0",
         "Envío de Email"
       ],
-      "codeUrl":"https://github.com/Ovtt17/patient-app-api"
+      "codeUrl": "https://github.com/Ovtt17/patient-app-api"
     },
     {
       "id": 1,
@@ -124,11 +124,11 @@
     }
   ],
   "details": {
-    "description": "Descripción",
+    "description": "Resumen",
     "videoDemo": "Demo en Video",
-    "technologies": "Tecnologías",
-    "viewCode": "Ver Código",
-    "viewCodeAreaLabel": "Ver Código en GitHub"
+    "technologies": "Stack Técnico",
+    "viewCode": "GitHub",
+    "viewCodeAreaLabel": "Ver Código Fuente"
   },
   "github-calendar": {
     "title": {
