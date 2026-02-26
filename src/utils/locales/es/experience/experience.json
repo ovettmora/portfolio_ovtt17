@@ -1,23 +1,23 @@
 {
   "header": {
-    "title": "Experiencia"
+    "title": "Experiencia Profesional"
   },
   "experiences": [
     {
       "id": "job1",
-      "title": "Freelance - Sistema de Inventario para Hey! Cha",
+      "title": "Hey! Cha",
       "position": "Desarrollador Full-Stack",
       "url": "",
       "startDate": "Diciembre 2024",
-      "endDate": "Octubre 2025",
+      "endDate": "Enero 2026",
       "description": [
-        "Desarrollé un sistema interno seguro para gestionar inventarios, ventas, pedidos y envíos en una tienda de indumentaria, optimizando la eficiencia operativa.",
-        "Construí una API backend utilizando Spring Boot (Java 17) y el frontend con React, TypeScript y Tailwind CSS.",
-        "Implementé autenticación y autorización con JWT y OAuth 2.0, incluyendo integración de inicio de sesión con Google.",
-        "Añadí funcionalidades avanzadas de filtrado de productos para mejorar la experiencia de búsqueda.",
-        "Utilicé AWS S3 para el almacenamiento seguro de activos.",
-        "Administré envíos y gestioné transacciones en dos tipos de monedas para facilitar las operaciones con dólares y córdobas.",
-        "Proporcioné mantenimiento continuo y actualizaciones para adaptarme a las necesidades del cliente, asegurando escalabilidad y rendimiento."
+        "Diseñé la arquitectura y desplegué un ecosistema POS seguro para digitalizar operaciones comerciales integrales, incluyendo rastreo de inventario en tiempo real y flujos logísticos automatizados.",
+        "Desarrollé una API RESTful de alto rendimiento con Spring Boot (Java 17) e interfaces responsivas con React, TypeScript y Tailwind CSS.",
+        "Implementé una capa de seguridad robusta mediante OAuth 2.0, JWT y Google Identity, aplicando un estricto Control de Acceso Basado en Roles (RBAC).",
+        "Construí un motor de transacciones multimoneda (USD/NIO) para gestionar lógica financiera compleja y reportes operativos en tiempo real.",
+        "Integré AWS S3 para almacenamiento escalable en la nube y configuré copias de seguridad automatizadas para garantizar la integridad de los datos.",
+        "Optimicé lógica de negocio compleja para la conciliación de stock y validaciones del sistema, garantizando una alta consistencia de datos y eficiencia operativa.",
+        "Diseñé un sistema de notificaciones en tiempo real para alertar sobre nuevas transacciones, cambios de estado y niveles críticos de inventario."
       ]
     }
   ]

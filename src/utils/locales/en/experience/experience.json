@@ -1,25 +1,23 @@
 {
   "header": {
-    "title": "Experience"
+    "title": "Professional Experience"
   },
   "experiences": [
     {
       "id": "job1",
-      "title": "Freelance - Heycha POS System",
+      "title": "Hey! Cha",
       "position": "Full-Stack Developer",
       "url": "",
       "startDate": "December 2024",
-      "endDate": "October 2025",
+      "endDate": "January 2026",
       "description": [
-        "Designed and developed a full-featured Point of Sale (POS) system for a real retail business, supporting sales transactions, inventory control, order management, shipment tracking, and daily operational workflows.",
-        "Built a scalable backend API using Spring Boot (Java 17) and a modern, responsive frontend with React, TypeScript, and Tailwind CSS.",
-        "Implemented secure authentication and authorization using JWT and OAuth 2.0, including third-party login with Google.",
-        "Developed and optimized internal business processes such as stock reconciliation, order status flows, and role-based access control to improve operational efficiency and data consistency.",
-        "Implemented advanced product search and filtering capabilities to speed up sales operations and improve user experience.",
-        "Integrated AWS S3 for secure storage and management of product images and internal digital assets.",
-        "Implemented multi-currency transaction handling to support operations in both USD and NIO (Córdobas).",
-        "Designed internal tools and system validations to reduce human error during sales, inventory updates, and shipment processing.",
-        "Provided continuous system maintenance, feature enhancements, and performance optimizations based on real business requirements."
+        "Architected and deployed a secure, multi-user POS ecosystem to digitize end-to-end business operations, including real-time inventory tracking, automated order workflows, and complex logistics.",
+        "Engineered a high-performance RESTful API using Spring Boot (Java 17) and a responsive UI with React, TypeScript, and Tailwind CSS.",
+        "Implemented a robust security layer featuring OAuth 2.0, JWT, and Google Identity services, enforcing strict Role-Based Access Control (RBAC) across the platform.",
+        "Developed a dual-currency transaction engine (USD/NIO) to facilitate complex financial logic and real-time operational reporting.",
+        "Integrated AWS S3 for scalable cloud storage of digital assets and configured automated database backups to ensure data integrity and disaster recovery.",
+        "Optimized complex business logic for stock reconciliation and system validations, significantly increasing data consistency and operational efficiency.",
+        "Designed a real-time notification system to instantly alert on new transactions, status changes, and critical inventory levels."
       ]
     }
   ]

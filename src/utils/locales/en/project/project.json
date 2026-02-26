@@ -50,8 +50,7 @@
         "MySQL",
         "AWS S3",
         "Email Sending"
-      ],
-      "codeUrl": "https://github.com/Ovtt17/ecommerce-app-api"
+      ]
     },
     {
       "id": 2,
@@ -125,11 +124,11 @@
     }
   ],
   "details": {
-    "description": "Description",
+    "description": "Overview",
     "videoDemo": "Video Demo",
-    "technologies": "Technologies",
-    "viewCode": "View Code",
-    "viewCodeAreaLabel": "View Code on GitHub"
+    "technologies": "Stack",
+    "viewCode": "GitHub",
+    "viewCodeAreaLabel": "View Source Code"
   },
   "github-calendar": {
     "title": {
