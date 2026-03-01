@@ -36,8 +36,8 @@
       "title": "Sistema POS Heycha",
       "slug": "heycha-pos-system",
       "role": "Desarrollador Full Stack",
-      "description": "Sistema Point of Sale (POS) full-stack desarrollado para un negocio real, orientado a la gestión de ventas, control de inventario y operaciones comerciales.",
-      "descriptionExtend": "Este proyecto es un sistema Point of Sale (POS) completo desarrollado para un entorno comercial real. Permite gestionar transacciones de venta, control de inventario en tiempo real y administración de productos desde una interfaz intuitiva. Incluye autenticación segura con OAuth2.0 y JWT, integración con AWS S3 para la gestión de imágenes y recursos del sistema, y notificaciones por correo electrónico. La arquitectura modular con Spring Boot en el backend y React en el frontend garantiza escalabilidad, rendimiento y fácil mantenimiento.",
+      "description": "Sistema Point of Sale (POS) full-stack desarrollado para un negocio real, orientado a la gestión de ventas, control de inventario y operaciones comerciales. Nota: los datos mostrados son de prueba y no son datos reales.",
+      "descriptionExtend": "Este proyecto es un sistema Point of Sale (POS) completo desarrollado para un entorno comercial real. Permite gestionar transacciones de venta, control de inventario en tiempo real y administración de productos desde una interfaz intuitiva. Incluye autenticación segura con OAuth2.0 y JWT, integración con AWS S3 para la gestión de imágenes y recursos del sistema, y notificaciones por correo electrónico. La arquitectura modular con Spring Boot en el backend y React en el frontend garantiza escalabilidad, rendimiento y fácil mantenimiento. Nota: los datos mostrados son de prueba y no son datos reales.",
       "image": "/images/projects/heycha-inventory/heycha-inventory.webp",
       "technologies": [
         "Spring Boot",
