@@ -53,7 +53,7 @@ const HeroButtons = () => {
             <LinkedInIcon className="w-10 h-10" />
           </a>
           <a
-            href="mailto:ovtt17@gmail.com"
+            href="mailto:ovettmora17@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Gmail"
