@@ -27,7 +27,7 @@ const GitHubStats = () => {
           </span>
         </h2>
         <div className="w-full max-w-5xl flex justify-center items-center">
-          <GitHubCalendar username="Ovtt17" />
+          <GitHubCalendar username="ovettmora" />
         </div>
       </div>
       <div className="text-center mt-4">
